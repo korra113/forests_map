@@ -1,0 +1,10 @@
+{
+  "name": "gee-token-updater",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "node scripts/generate-tokens.js"
+  },
+  "dependencies": {
+    "@google/earthengine": "^0.1.385"
+  }
+}
