@@ -4,7 +4,7 @@ on:
   schedule:
     # Запуск каждые 12 часов (в 00:00 и 12:00 UTC)
     - cron: '0 */12 * * *'
-  workflow_dispatch: # Позволяет запускать вручную кнопкой "Run workflow"
+  workflow_dispatch: # Кнопка ручного запуска в интерфейсе
 
 permissions:
   contents: write
@@ -19,8 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 22
 
       - name: Install dependencies
         run: npm install
@@ -35,4 +34,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add gee-tokens.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update GEE tile tokens [skip ci]" && git push)
+          git diff --staged --quiet || (git commit -m "chore: auto-update GEE tile tokens [skip ci]" && git push)
