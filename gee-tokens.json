@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-07T05:25:12.013Z",
-  "expiresAt": 1794115512013,
+  "updatedAt": "2026-11-07T17:38:31.213Z",
+  "expiresAt": 1794159511213,
   "templates": {
-    "height": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/870943905f9958d9a02103c731985c61-e738d127ae36f544c0c2a0e9f6ef5a20/tiles/{z}/{x}/{y}",
-    "mask": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/756cd14222ba076f455eb17dda47d862-24a11ca4e05d7b1b543f7611d16e185f/tiles/{z}/{x}/{y}",
-    "species": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/5c2ede4e580d7e2522e604660d26bcd0-9d82ee0e7c9c51f3398ce355675041e1/tiles/{z}/{x}/{y}"
+    "height": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/870943905f9958d9a02103c731985c61-c696a55435c0d334e87a58c12d17515a/tiles/{z}/{x}/{y}",
+    "mask": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/756cd14222ba076f455eb17dda47d862-4348f4e8f5b6487103ffcbbc177a7722/tiles/{z}/{x}/{y}",
+    "species": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/5c2ede4e580d7e2522e604660d26bcd0-af1b0bb25c3bc28d14d0dada44bfd3f5/tiles/{z}/{x}/{y}"
   }
 }
