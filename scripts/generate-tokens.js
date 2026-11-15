@@ -59,6 +59,12 @@ async function run() {
       height: heightUrl,
       mask: maskUrl,
       species: speciesUrl
+    },
+    v2: {
+      directMirrors: [
+        'https://data.source.coop/tge-labs/meta-chm-v2/{path}',
+        'https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/{path}'
+      ]
     }
   };
 
