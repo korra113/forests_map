@@ -52,13 +52,19 @@ async function run() {
   const speciesImg = speciesRaw.remap(classValues, newValues);
   const speciesUrl = await getMapUrl(speciesImg, { min: 1, max: 36, palette });
 
+  // 4. Маска водоёмов (ESA WorldCover 10m 2021, класс 80 = Permanent water bodies)
+  const wcImg = ee.ImageCollection('ESA/WorldCover/v200').mosaic().select('Map');
+  const waterImg = wcImg.eq(80).selfMask();
+  const waterUrl = await getMapUrl(waterImg, { min: 0, max: 1, palette: ['0064c8'] });
+
   const result = {
     updatedAt: new Date().toISOString(),
     expiresAt: Date.now() + (24 * 3600 * 1000),
     templates: {
       height: heightUrl,
       mask: maskUrl,
-      species: speciesUrl
+      species: speciesUrl,
+      water: waterUrl
     },
     v2: {
       directMirrors: [
