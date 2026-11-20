@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-20T06:36:37.713Z",
-  "expiresAt": 1795242997714,
+  "updatedAt": "2026-11-20T19:49:07.869Z",
+  "expiresAt": 1795290547870,
   "templates": {
-    "height": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/870943905f9958d9a02103c731985c61-4e747c4f0c162f66fc6a01af977a85d8/tiles/{z}/{x}/{y}",
-    "mask": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/756cd14222ba076f455eb17dda47d862-51756854995c005fec2e47742559585d/tiles/{z}/{x}/{y}",
-    "species": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/5c2ede4e580d7e2522e604660d26bcd0-c1be39604c44937e09282a15cc6a8559/tiles/{z}/{x}/{y}",
-    "water": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/4bffce3c1fd0345b32701b123c44a73b-ac583b81185298e79a0c6926f1a88dac/tiles/{z}/{x}/{y}"
+    "height": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/870943905f9958d9a02103c731985c61-fffcb51ed1ebb852a735471e23dd6e77/tiles/{z}/{x}/{y}",
+    "mask": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/756cd14222ba076f455eb17dda47d862-4fbf251ba55015b1f47b80f42f439005/tiles/{z}/{x}/{y}",
+    "species": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/5c2ede4e580d7e2522e604660d26bcd0-d407e10645148ef01dbec60c72666c2a/tiles/{z}/{x}/{y}",
+    "water": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/4bffce3c1fd0345b32701b123c44a73b-f88ac31a30ce43bf2fe97b89d0f3fd19/tiles/{z}/{x}/{y}"
   },
   "v2": {
     "directMirrors": [
