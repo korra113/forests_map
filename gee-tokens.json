@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-23T23:38:39.505Z",
-  "expiresAt": 1795563519506,
+  "updatedAt": "2026-11-24T09:15:13.356Z",
+  "expiresAt": 1795598113357,
   "templates": {
-    "height": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/870943905f9958d9a02103c731985c61-7cfc6265bb6bd52abb541420e17aa10e/tiles/{z}/{x}/{y}",
-    "mask": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/756cd14222ba076f455eb17dda47d862-90c07e009b3d57ee89a8d99fc677e647/tiles/{z}/{x}/{y}",
-    "species": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/5c2ede4e580d7e2522e604660d26bcd0-d383ef6fe6d2c394b41884602b3dc9dd/tiles/{z}/{x}/{y}",
-    "water": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/4bffce3c1fd0345b32701b123c44a73b-77806cacb4fb0cc9f4efd67bcaa6f48c/tiles/{z}/{x}/{y}",
-    "fabdem": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/852e87aa8bcb641191949cac6623cfd9-b99d3bc4bc15b80cfadb6e6bd736597d/tiles/{z}/{x}/{y}",
-    "copernicus": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/35c0a95dc69ada163efc5be4aaf6f0cd-2752341e714fd508f2883c2af069dc3c/tiles/{z}/{x}/{y}"
+    "height": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/870943905f9958d9a02103c731985c61-6e7a9740b6bdc1b0a54fae2d3348427c/tiles/{z}/{x}/{y}",
+    "mask": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/756cd14222ba076f455eb17dda47d862-71b3ce1470901d34d34f2ee59f7925f3/tiles/{z}/{x}/{y}",
+    "species": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/5c2ede4e580d7e2522e604660d26bcd0-69a960c94849b767a0890d03c752c925/tiles/{z}/{x}/{y}",
+    "water": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/4bffce3c1fd0345b32701b123c44a73b-c84ae7114f1166a75f44305465d81dde/tiles/{z}/{x}/{y}",
+    "fabdem": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/852e87aa8bcb641191949cac6623cfd9-026b53f5087ffa29994f0620aea26b66/tiles/{z}/{x}/{y}",
+    "copernicus": "https://earthengine.googleapis.com/v1/projects/gemini-5-449315/maps/35c0a95dc69ada163efc5be4aaf6f0cd-e230c5a3343eab6257bcfb6b85f7e850/tiles/{z}/{x}/{y}"
   },
   "v2": {
     "directMirrors": [
